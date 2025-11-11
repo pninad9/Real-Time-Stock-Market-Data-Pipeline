@@ -1,0 +1,8 @@
+version : 2
+
+sources:
+  - name: raw
+    database: STOCK_MDS
+    schema: source  
+    tables:
+      - name: SOURCE_STOCK_QUOTES
