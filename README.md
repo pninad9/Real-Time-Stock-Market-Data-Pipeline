@@ -149,10 +149,5 @@ with DAG(
 ---
 
 ## 6) Final Word
-**Impact.** This repo showcases a clean, scalable template for **near-real-time analytics**: streaming ingestion, durable landing, governed transformations, and orchestrated delivery. It’s easy to extend (add symbols, tests, marts) and easy to deploy (compose up, set credentials, run).
-
-**Next steps.**
-- Switch MinIO → AWS S3 and enable **Snowpipe Auto-Ingest** or **Snowpipe Streaming** for sub-minute latency.  
-- Add **dbt-expectations** for richer data quality.  
-- Automate **Power BI** dataset refresh and add monitoring metrics (load counts/latency).
+This repository is a concise but realistic blueprint for building production-grade, near-real-time analytics: event-driven ingestion, durable raw landing, governed transformations, and orchestrated delivery. It emphasizes reliability (idempotent loads, raw retention, data tests), observability, and clear modeling so stakeholders can trust KPIs within minutes. The design is cloud-agnostic and cost-aware, making it a practical pattern to scale across new data sources, teams, and reporting needs without re-architecting.
 
